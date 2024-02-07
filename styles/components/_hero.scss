@@ -4,30 +4,32 @@
   background-size: cover;
   background-position: center;
   color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 
-  .hero-overlay {
+  &::before {
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
   }
 
   .hero-content {
-    text-align: center;
+    z-index: 1;
 
     h1 {
-      font-size: 2.5rem;
+      font-size: 3.5rem;
       margin-bottom: 20px;
     }
 
     p {
-      font-size: 1.2rem;
-      margin-bottom: 30px;
+      font-size: 1.5rem;
+      margin-bottom: 40px;
     }
 
     .cta-btn {
