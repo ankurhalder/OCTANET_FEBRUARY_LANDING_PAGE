@@ -16,7 +16,17 @@
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-
+    @media (max-width: $breakpoint-desktop-wide) {
+    }
+    @media (max-width: $breakpoint-desktop) {
+    }
+    @media (max-width: $breakpoint-large-tablet) {
+    }
+    @media (max-width: $breakpoint-tablet) {
+      max-width: max(300px, 60%);
+    }
+    @media (max-width: $breakpoint-phone) {
+    }
     .step {
       max-width: 300px;
       text-align: center;
