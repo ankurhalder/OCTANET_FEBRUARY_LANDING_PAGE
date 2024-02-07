@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import heroImage from "/assets/hero.jpg";
+import heroImage from "/assets/hero/hero.jpg";
 function Hero() {
   return (
     <Fragment>
