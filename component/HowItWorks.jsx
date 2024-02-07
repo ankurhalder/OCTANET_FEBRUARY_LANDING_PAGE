@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import step1Image from "/assets/steps/step-1.jpg";
+import step1Image from "/assets/steps/step-1.png";
 import step2Image from "/assets/steps/step-2.jpg";
 import step3Image from "/assets/steps/step-3.jpg";
 function HowItWorks() {
