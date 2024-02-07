@@ -6,7 +6,7 @@ import {
   Testimonials,
   CallToAction,
 } from "../component";
-import { Header } from "../containers";
+import { Header, Footer } from "../containers";
 function App() {
   return (
     <Fragment>
@@ -16,6 +16,7 @@ function App() {
       <HowItWorks />
       <Testimonials />
       <CallToAction />
+      <Footer />
     </Fragment>
   );
 }
