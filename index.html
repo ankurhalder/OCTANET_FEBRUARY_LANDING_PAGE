@@ -5,6 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Droper</title>
     <link rel="stylesheet" href="/styles/main.scss" />
+    <script src="/javaScript/ImagePaths.js"></script>
+    <script>
+      window.onload = function () {
+        if (typeof imagePaths !== "undefined" && imagePaths.length > 0) {
+          imagePaths.forEach(function (path) {
+            var link = document.createElement("link");
+            link.rel = "preload";
+            link.href = path;
+            link.as = "image";
+            document.head.appendChild(link);
+          });
+        }
+      };
+    </script>
   </head>
   <body>
     <div id="root"></div>
