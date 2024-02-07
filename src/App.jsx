@@ -6,9 +6,11 @@ import {
   Testimonials,
   CallToAction,
 } from "../component";
+import { Header } from "../containers";
 function App() {
   return (
     <Fragment>
+      <Header />
       <Hero />
       <Features />
       <HowItWorks />
