@@ -2,8 +2,19 @@
   background-color: var(--light-black-2);
   color: var(--white);
   padding: 15px;
-
+  overflow: hidden;
   @include flex-container(row, nowrap, space-between, center);
+  @media (max-width: $breakpoint-desktop-wide) {
+  }
+  @media (max-width: $breakpoint-desktop) {
+  }
+  @media (max-width: $breakpoint-large-tablet) {
+  }
+  @media (max-width: $breakpoint-tablet) {
+  }
+  @media (max-width: $breakpoint-phone) {
+    @include flex-container(column, nowrap, center, center);
+  }
   .logo {
     font-family: var(--font-moleth);
     font-size: var(--font-7);
@@ -15,9 +26,22 @@
   }
 
   .nav {
+    overflow: hidden;
     ul {
       @include flex-container(row, nowrap, center, center);
       gap: 50px;
+      @media (max-width: $breakpoint-desktop-wide) {
+      }
+      @media (max-width: $breakpoint-desktop) {
+      }
+      @media (max-width: $breakpoint-large-tablet) {
+      }
+      @media (max-width: $breakpoint-tablet) {
+      }
+      @media (max-width: $breakpoint-phone) {
+        @include flex-container(column, nowrap, center, center);
+        gap: 20px;
+      }
       li {
         a {
           color: var(--white);

@@ -1,8 +1,14 @@
 .features {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 80px 0;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  width: 100%;
+  max-width: max(900px, 60%);
+  margin: 5% auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  // padding: 80px 0;
 
   .feature {
     max-width: 300px;

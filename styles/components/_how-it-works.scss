@@ -9,9 +9,12 @@
   }
 
   .steps {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    width: 100%;
+    max-width: max(900px, 60%);
+    margin: 5% auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 
     .step {
       max-width: 300px;
