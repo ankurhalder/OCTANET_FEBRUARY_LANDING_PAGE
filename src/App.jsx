@@ -1,8 +1,19 @@
 import { Fragment } from "react";
+import {
+  Hero,
+  Features,
+  HowItWorks,
+  Testimonials,
+  CallToAction,
+} from "../component";
 function App() {
   return (
     <Fragment>
-      <h1>Ankur Halder</h1>
+      <Hero />
+      <Features />
+      <HowItWorks />
+      <Testimonials />
+      <CallToAction />
     </Fragment>
   );
 }
