@@ -11,6 +11,7 @@ function Hero() {
           <div className="hero-content">
             <h1>Create Websites Without Any Coding Knowledge</h1>
             <p>Build beautiful and professional websites effortlessly.</p>
+            <span>Created by Ankur halder</span>
             <button className="cta-btn">Get Started</button>
           </div>
         </div>
