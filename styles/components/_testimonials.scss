@@ -1,11 +1,12 @@
 .testimonials {
   text-align: center;
-  padding: 80px 0;
 
   h2 {
-    font-size: 2rem;
-    margin-bottom: 40px;
-    font-weight: 700;
+    font-family: var(--font-rockyeah);
+    font-size: var(--font-8);
+    color: var(--black);
+    letter-spacing: 2px;
+    text-transform: capitalize;
   }
   .grid {
     width: 100%;
@@ -15,7 +16,7 @@
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     .testimonial {
-      max-width: 400px;
+      max-width: 350px;
       margin: 0 auto;
       text-align: center;
       padding: 40px 20px 40px 20px;
