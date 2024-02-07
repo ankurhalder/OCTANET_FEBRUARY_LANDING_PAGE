@@ -4,20 +4,20 @@ function Header() {
   return (
     <Fragment>
       <header className="header">
-        <div className="logo">Your Logo</div>
+        <div className="logo">Web Dropper</div>
         <nav className="nav">
           <ul>
             <li>
-              <a href="#features">Features</a>
+              <a href="about-us">About Us</a>
             </li>
             <li>
-              <a href="#how-it-works">How It Works</a>
+              <a href="services">Services</a>
             </li>
             <li>
-              <a href="#testimonials">Testimonials</a>
+              <a href="login">Login</a>
             </li>
             <li>
-              <a href="#cta">Get Started</a>
+              <a href="register">Register</a>
             </li>
           </ul>
         </nav>

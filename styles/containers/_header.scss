@@ -1,32 +1,32 @@
 .header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background-color: var(--light-black-2);
+  color: var(--white);
+  padding: 15px;
 
+  @include flex-container(row, nowrap, space-between, center);
   .logo {
-    font-size: 2rem;
-    font-weight: bold;
+    font-family: var(--font-moleth);
+    font-size: var(--font-7);
+    color: var(--white);
+    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 2px;
+    cursor: pointer;
   }
 
   .nav {
     ul {
-      list-style: none;
-      display: flex;
-      align-items: center;
-      gap: 20px;
-
+      @include flex-container(row, nowrap, center, center);
+      gap: 50px;
       li {
         a {
-          color: #fff;
-          text-decoration: none;
-          font-size: 1.2rem;
+          color: var(--white);
+          font-family: var(--font-tektur);
+          font-size: var(--font-11);
+          text-transform: capitalize;
+          font-weight: 500;
+          letter-spacing: 3px;
           transition: color 0.3s ease;
-
           &:hover {
             color: #007bff;
           }
